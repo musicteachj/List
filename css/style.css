@@ -23,6 +23,7 @@ body {
 #formContainer {
 	margin: 50px 200px 50px 200px;
 	text-align: center;
+	background-color: grey;
 }
 
 input {

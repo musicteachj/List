@@ -25,43 +25,47 @@
 	      <input type="text" class="form-control" id="fName" placeholder="First name">
 	    </div>
 	    <div class="col">
-	      <input type="text" class="form-control lName" placeholder="Last name">
+	      <input type="text" class="form-control" id="lName" placeholder="Last name">
 	    </div>
 	     <div class="col">
-	      <input type="text" class="form-control nName" placeholder="Nicknames">
+	      <input type="text" class="form-control" id="nName" placeholder="Nickname">
 	    </div>
 	  </div>
 	  <button type="submit" class="btn btn-primary" id="button">Submit</button>
 	</div>
 
 	<div id="listContainer">
-		<table class="table">
+		<table class="table" id="myTable">
 		  <thead class="thead-dark">
 		    <tr>
 		      <th scope="col">#</th>
 		      <th scope="col">First</th>
 		      <th scope="col">Last</th>
-		      <th scope="col">Nicknames</th>
+		      <th scope="col">Nickname</th>
+		      <th scope="col">Remove</th>
 		    </tr>
 		  </thead>
-		  <tbody>
+		  <tbody id="tableBody">
 		    <tr>
-		      <th scope="row">1</th>
+		      <th scope="row" id="one">1</th>
 		      <td>Mark</td>
 		      <td>Otto</td>
 		      <td>"Sparky"</td>
+		      <td><img src="x.svg"></td>
 		    </tr>
 		    <tr>
-		      <th scope="row">2</th>
+		      <th scope="row" id="two">2</th>
 		      <td>Jacob</td>
 		      <td>Thornton</td>
 		      <td>"Big Joe"</td>
+		      <td><img src="x.svg"></td>
 		    </tr>
 		    <tr>
-		      <th scope="row">3</th>
+		      <th scope="row" id="three">3</th>
 		      <td>Larry</td>
 		      <td>the Bird</td>
 		      <td>"Flying Weasel"</td>
+		      <td><img src="x.svg"></td>
 		    </tr>
 		  </tbody>
 		</table>

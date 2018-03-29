@@ -1,3 +1,30 @@
 body {
 	background-color: blue;
 }
+
+.navbar-brand {
+	text-align: center;
+	width: 100%;
+}
+
+#listContainer {
+	margin: 50px 200px 50px 200px;
+}
+
+.table {
+	background-color: white;
+	text-align: center;
+}
+
+#inputDiv {
+	height:;
+}
+
+#formContainer {
+	margin: 50px 200px 50px 200px;
+	text-align: center;
+}
+
+input {
+	text-align: center;
+}

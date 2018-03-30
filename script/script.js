@@ -19,6 +19,7 @@ document.getElementById("button").onclick = function() {
 	var cell2 = row.insertCell(1);
 	var cell3 = row.insertCell(2);
 	var cell4 = row.insertCell(3);
+	var cell5 = row.insertCell(4);
 
 	var num = 4;
 
@@ -27,6 +28,7 @@ document.getElementById("button").onclick = function() {
 	cell2.innerHTML = firstName;
 	cell3.innerHTML = lastName;
 	cell4.innerHTML = nickName;
+	cell5.innerHTML = "<img src='x.svg'>";
 
 	document.getElementById("fName").value = "";
 	document.getElementById("fName").style.backgroundColor = "white";

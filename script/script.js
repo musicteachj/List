@@ -28,7 +28,7 @@ document.getElementById("button").onclick = function() {
 	cell2.innerHTML = firstName;
 	cell3.innerHTML = lastName;
 	cell4.innerHTML = nickName;
-	cell5.innerHTML = "<img src='x.svg'>";
+	cell5.innerHTML = "<i class='material-icons'>delete</i>";
 
 	document.getElementById("fName").value = "";
 	document.getElementById("fName").style.backgroundColor = "white";

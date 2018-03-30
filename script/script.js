@@ -19,16 +19,14 @@ document.getElementById("button").onclick = function() {
 	var cell2 = row.insertCell(1);
 	var cell3 = row.insertCell(2);
 	var cell4 = row.insertCell(3);
-	var cell5 = row.insertCell(4);
 
 	var num = 4;
 
 	// Add some text to the new cells:
-	cell1.innerHTML = "<b>" + num + "</b>";
-	cell2.innerHTML = firstName;
-	cell3.innerHTML = lastName;
-	cell4.innerHTML = nickName;
-	cell5.innerHTML = "<i class='material-icons'>delete</i>";
+	cell1.innerHTML = firstName;
+	cell2.innerHTML = lastName;
+	cell3.innerHTML = "\"" + nickName + "\"";
+	cell4.innerHTML = "<button type='submit' class='btn btn-danger' value='Delete' onclick='deleteRow(this)'>Delete</button>";
 
 	document.getElementById("fName").value = "";
 	document.getElementById("fName").style.backgroundColor = "white";
@@ -37,6 +35,13 @@ document.getElementById("button").onclick = function() {
 	document.getElementById("nName").value = "";
 	document.getElementById("nName").style.backgroundColor = "white";
 }
+
+function deleteRow(r) {
+    var i = r.parentNode.parentNode.rowIndex;
+    document.getElementById("myTable").deleteRow(i);
+}
+
+
 
 
  

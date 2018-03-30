@@ -8,12 +8,15 @@ body {
 }
 
 #listContainer {
-	margin: 50px 200px 50px 200px;
+	margin: 0 auto;
+	width: 70%;
+	margin-top: 50px;
 }
 
 .table {
 	background-color: white;
 	text-align: center;
+
 }
 
 #inputDiv {
@@ -21,9 +24,11 @@ body {
 }
 
 #formContainer {
-	margin: 50px 200px 50px 200px;
+	margin: 0 auto;
+	width: 70%;
 	text-align: center;
 	background-color: grey;
+	margin-top: 50px;
 }
 
 input {
